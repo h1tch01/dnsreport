@@ -11,7 +11,7 @@ import dns.resolver
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--domain',default="google.com", help="domain name to test example bank.com")
+parser.add_argument('--domain',help="domain name to test example domain.com, required=True")
 parser.add_argument('--subdomain',default="subdomains-100.txt", help="subdomain wordlist to brute")
 args = parser.parse_args()
 
