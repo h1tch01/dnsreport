@@ -8,6 +8,7 @@ EXAMPLE:<BR>
 puython3 dnsreport --domain mydomain.com --subdomain subdomain-100.txt
   <BR>
 # install <BR>
+    git clone https://github.com/h1tch01/dnsreport.git <BR>
     pip3 install -r requirements.txt
     
 
