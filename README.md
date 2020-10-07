@@ -7,4 +7,7 @@ output is simple CSV for easy excel usage.<BR>
 EXAMPLE:<BR>
 puython3 dnsreport --domain mydomain.com --subdomain subdomain-100.txt
   <BR>
+# install <BR>
+    pip3 install -r requirements.txt
+    
 
