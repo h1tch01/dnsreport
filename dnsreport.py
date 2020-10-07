@@ -3,7 +3,7 @@
 # dnsreport.py
 # Brian Hitchcock (h1tch)
 # 2020/09/15
-# Python3 DNS lookup - Formats in CSV for 10-D Reports
+# Python3 DNS lookup - Formats in CSV for Reports
 #EXAMPLE
 #python3 dnsreport.py --domain google.com --subdomain subdomains-100.txt
 #
