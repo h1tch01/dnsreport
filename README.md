@@ -5,7 +5,7 @@ Performs brute force with subdomain file.<BR>
 output is simple CSV for easy excel usage.<BR>
 <BR>
 EXAMPLE:<BR>
-puython3 dnsreport --domain mydomain.com --subdomain subdomain-100.txt
+python3 dnsreport --domain mydomain.com --subdomain subdomain-100.txt
   <BR>
 # install <BR>
     git clone https://github.com/h1tch01/dnsreport.git <BR>
