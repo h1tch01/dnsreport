@@ -6,12 +6,13 @@
 # Python3 DNS lookup - Formats in CSV for Reports
 #EXAMPLE
 #python3 dnsreport.py --domain google.com --subdomain subdomains-100.txt
+# pip3 install dnspython
 #
 import dns.resolver
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--domain',help="domain name to test example domain.com, required=True")
+parser.add_argument('--domain', help="domain name to test example domain.com", required=True)
 parser.add_argument('--subdomain',default="subdomains-100.txt", help="subdomain wordlist to brute")
 args = parser.parse_args()
 
