@@ -1,8 +1,8 @@
 # dnsreport
 <BR>
-2/16/2024
-Updated code
-Added THREADING
+2/16/2024 <BR>
+Updated code <BR>
+Added THREADING <BR>
 <BR>
 Performs DNS lookups for IP4 NS, MX, TXT, A, and CNAME records. <BR>
 Performs brute force with subdomain file.<BR>
